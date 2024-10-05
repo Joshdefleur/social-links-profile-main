@@ -68,5 +68,8 @@ p{
 
 @media screen and (min-width: 400px){
 
+    .page{
+        padding: 20px;
+    }
     
 }
