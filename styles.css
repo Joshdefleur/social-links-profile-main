@@ -2,4 +2,77 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+p{
+    font-size: 14px;
+}
+
+.page{
+    margin: 0 1.5em;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    width: 400px;
+}
+
+
+/* profile pic */
+
+.profile-pic{
+    text-align: center;
+    padding: 1.5em 2em 0 2em;
+}
+
+.profile-pic h1{
+    margin-bottom: 0.5em;
+    font-weight: 700;
+}
+
+.greenp{
+    color: hsl(75, 94%, 57%);
+    font-weight: 700;
+    margin-bottom: 2em;
+}
+
+.woman{
+    margin-bottom: 2em;
+    border-radius: 90px;
+    height: 6em;
+}
+
+/* buttons */
+
+.buttons{
+    text-align: center;
+    padding: 0 1.3em 1.3em 1.5em;
+}
+
+.button{
+    background-color:   hsl(0, 0%, 20%);
+    padding: 1em;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+
+
+@media screen and (min-width: 400px){
+    .buttons{
+        padding: 0 2.3em 2.3em 2.5em;
+    }
+
+    .profile-pic{
+        padding: 2.5em 3em 0 3em;
+    }
+
 }
